@@ -1,0 +1,24 @@
+@font-face {
+  font-family: Mabry;
+  src: url("./assets/MabryProMedium.woff") format("woff");
+}
+
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --gray: #f4f5f0;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  position: relative;
+  font-family: "Mabry", monospace;
+  background-color: var(--gray);
+  color: red;
+}
