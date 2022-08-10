@@ -19,7 +19,7 @@
     datasets: [
       {
         label: "Temperature",
-        data: [33, 43, 32, 40, 65, 59, 80, 81, 56, 55, 40],
+        data: [33, 43, 32, 40, 65, 59, 80, 81],
         backgroundColor: ["rgba(201, 203, 207, 0.5)"],
         borderColor: ["rgb(201, 203, 207)"],
         borderWidth: 2,
