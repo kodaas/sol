@@ -45,12 +45,12 @@
     margin-bottom: 1.5rem;
     min-width: 250px;
   }
-
+  
   ul li section {
     display: flex;
     justify-content: space-between;
   }
-
+  
   ul li div {
     width: 100%;
     margin-top: 1.5rem;
@@ -58,6 +58,7 @@
     border-radius: 50px;
     background-color: var(--gray);
     border: 1px solid var(--black);
+    transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
   }
 
   ul li div span {

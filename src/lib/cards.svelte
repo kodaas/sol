@@ -55,9 +55,10 @@
     overflow: hidden;
     padding: 1rem;
     max-height: 400px;
-    min-height: 230px;
+    min-height: 250px;
     transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
     cursor: pointer;
+    /* grid-column: 1 / span 2; */
   }
 
   section:hover {
