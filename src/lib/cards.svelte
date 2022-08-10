@@ -1,4 +1,8 @@
-<section>
+<script lang="ts">
+  import { push } from "svelte-spa-router";
+</script>
+
+<section on:click={() => push("/home/temp")}>
   <div>
     <i>Temperature</i>
     <p>35<sup>o</sup>c</p>
@@ -10,7 +14,7 @@
   />
 </section>
 
-<section>
+<section on:click={() => push("/home/humidity")}>
   <div>
     <i>Air Humidity</i>
     <p>75 g.m <sup>-3</sup></p>
@@ -22,7 +26,7 @@
   />
 </section>
 
-<section>
+<section on:click={() => push("/home/ph")}>
   <div>
     <i>PH Value</i>
     <p>4.00</p>
@@ -34,7 +38,7 @@
   />
 </section>
 
-<section>
+<section on:click={() => push("/home/moisture")}>
   <div>
     <i>Moisture</i>
     <p>Wet</p>

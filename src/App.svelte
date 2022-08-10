@@ -4,8 +4,8 @@
   import Login from "./view/login.svelte";
 
   let routes = {
-    "/": Home,
-    // "/*": Home,
+    "/home": Home,
+    "/home/*": Home,
     "/login": Login,
 
     "*": Login,

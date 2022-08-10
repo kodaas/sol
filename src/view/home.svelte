@@ -1,19 +1,22 @@
 <script lang="ts">
-  // import Router from "svelte-spa-router";
+  import Router from "svelte-spa-router";
   import Cards from "../lib/cards.svelte";
   import Nav from "../lib/nav.svelte";
   import Npk from "../lib/npk.svelte";
   import Detail from "./detail.svelte";
 
-  // let prefix = "/"
-  // let routes = {
-  //   "/:section": Detail
-  // }
+  let prefix = "/home"
+
+  let routes = {
+    "/": Cards, 
+    "/:fun": Detail
+  }
 </script>
 
 <main>
   <!-- <Cards /> -->
-  <Detail />
+  <!-- <Detail /> -->
+  <Router {routes} {prefix} />
 </main>
 
 <aside>
@@ -28,7 +31,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 1rem;
-    overflow-y: scroll;
+    overflow-y: auto;
   }
 
   aside {

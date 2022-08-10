@@ -1,5 +1,9 @@
+<script lang="ts">
+  import { push } from 'svelte-spa-router'
+  let navigate = () => push('/login')
+</script>
 <nav>
-  <span>Logout</span>
+  <span on:click={navigate} >Logout</span>
   <div>
     <p>Bailey Harlan</p>
     <p>2 f 4 0 3 * * * * 6 c C e</p>
@@ -32,6 +36,7 @@
     border-radius: 0.5em;
     border: 1px solid var(--black);
     left: 0;
+    cursor: pointer;
   }
 
   nav span:hover {
