@@ -13,9 +13,9 @@
 </script>
 
 <main>
-  <h2>Monitor your soil's Health in one Place</h2>
+  <h2>Monitor your Soil's Health in one Place</h2>
   <img
-    src="./src/assets/icon/DrawKit Vector Illustration Ecology & Environment (4).svg"
+    src="./icon/DrawKit Vector Illustration Ecology & Environment (4).svg"
     alt="Illustration"
   />
 </main>

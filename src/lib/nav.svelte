@@ -1,15 +1,16 @@
 <script lang="ts">
-  import { push } from 'svelte-spa-router'
-  let navigate = () => push('/login')
+  import { push } from "svelte-spa-router";
+  let navigate = () => push("/login");
 </script>
+
 <nav>
-  <span on:click={navigate} >Logout</span>
+  <span on:click={navigate}>Logout</span>
   <div>
     <p>Bailey Harlan</p>
     <p>2 f 4 0 3 * * * * 6 c C e</p>
   </div>
   <img
-    src="./src/assets/icon/DrawKit Vector Illustration Ecology & Environment (2).svg"
+    src="./icon/DrawKit Vector Illustration Ecology & Environment (2).svg"
     alt="profile"
     width="70px"
     height="70px"

@@ -9,7 +9,7 @@
   </div>
 
   <img
-    src="./src/assets/icon/DrawKit Vector Illustration Ecology & Environment (5).svg"
+    src="./icon/DrawKit Vector Illustration Ecology & Environment (5).svg"
     alt="Illustration"
   />
 </section>
@@ -21,7 +21,7 @@
   </div>
 
   <img
-    src="./src/assets/icon/DrawKit Vector Illustration Ecology & Environment (6).svg"
+    src="./icon/DrawKit Vector Illustration Ecology & Environment (6).svg"
     alt="Illustration"
   />
 </section>
@@ -33,7 +33,7 @@
   </div>
 
   <img
-    src="./src/assets/icon/DrawKit Vector Illustration Ecology & Environment (3).svg"
+    src="./icon/DrawKit Vector Illustration Ecology & Environment (3).svg"
     alt="Illustration"
   />
 </section>
@@ -45,7 +45,7 @@
   </div>
 
   <img
-    src="./src/assets/icon/DrawKit Vector Illustration Ecology & Environment (10).svg"
+    src="./icon/DrawKit Vector Illustration Ecology & Environment (10).svg"
     alt="Illustration"
   />
 </section>
