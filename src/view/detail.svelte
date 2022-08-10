@@ -1,6 +1,6 @@
 <script lang="ts">
+  import Chart from "../lib/chart.svelte";
   import { params, push } from "svelte-spa-router";
-  let canvas;
 </script>
 
 <section>
@@ -26,7 +26,7 @@
 
   <div class="chart">
     <p>History</p>
-    <canvas bind:this={canvas} width={400} height={400} />
+    <Chart />
   </div>
 </section>
 
@@ -66,7 +66,6 @@
   }
 
   section div.chart {
-    background-color: blueviolet;
     padding: 0.5em;
     height: 40%;
     text-align: left;
@@ -88,11 +87,4 @@
     transform: translateY(-3px);
     transform-origin: bottom right;
   }
-  /* section img {
-    position: absolute;
-    width: 90%;
-    height: 98%;
-    right: -1.8rem;
-    bottom: -2rem; */
-  /* } */
 </style>
