@@ -14,7 +14,7 @@
   />
 </section>
 
-<section on:click={() => push("/home/humidity")}>
+<section on:click={() => push("/home/hum")}>
   <div>
     <i>Air Humidity</i>
     <p>75 g.m <sup>-3</sup></p>
@@ -38,7 +38,7 @@
   />
 </section>
 
-<section on:click={() => push("/home/moisture")}>
+<section on:click={() => push("/home/mois")}>
   <div>
     <i>Moisture</i>
     <p>Wet</p>

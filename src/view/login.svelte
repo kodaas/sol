@@ -52,7 +52,7 @@
     grid-gap: 1rem;
     justify-items: center;
     align-items: center;
-    overflow-y: scroll;
+    overflow-y: auto;
   }
 
   main h2 {
